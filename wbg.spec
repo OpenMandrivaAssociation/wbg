@@ -1,5 +1,5 @@
 Name:           wbg
-Version:        1.2.0
+Version:        1.3.0
 Release:        1
 Summary:        Wallpaper application for layer-shell Wayland compositors
 License:        MIT
@@ -13,6 +13,7 @@ BuildRequires:  python
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(libpng)
 BuildRequires:  pkgconfig(libwebp)
+BuildRequires:  pkgconfig(libjxl)
 BuildRequires:  pkgconfig(pixman-1)
 BuildRequires:  pkgconfig(tllist) >= 1.0.1
 BuildRequires:  pkgconfig(wayland-client)
