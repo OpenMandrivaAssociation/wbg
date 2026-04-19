@@ -28,7 +28,7 @@ It takes a single argument, the image filename, which is displayed
 scaled-to-fit on all monitors.
 
 %prep
-%setup -n %name
+%autosetup -n %{name}-%{version} -p1
 
 %build
 %meson
